@@ -4,11 +4,8 @@
 
 int main() {
     int a, b;
-    // a <= b
     scanf("%d", &a);
     scanf("%d", &b);
-    // primos entre a y b
-    // primos mayores que 9 ? (cuántos digitos tiene? ==> obtener digitos ==> su suma es un primo ? imprimir número original)
     for (int i = a; i <= b; i++) {
         bool primo = true;
         if (i < 2) {
