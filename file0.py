@@ -1,5 +1,4 @@
 from tkinter import *
-from turtle import textinput
 
 ############## Window ###########
 root = Tk()
